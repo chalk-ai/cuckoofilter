@@ -1,6 +1,8 @@
 Cuckoo Filter
 ============
 
+Forked from efficient/cuckoofilter to add serdes support.
+
 Overview
 --------
 Cuckoo filter is a Bloom filter replacement for approximated set-membership queries. While Bloom filters are well-known space-efficient data structures to serve queries like "if item x is in a set?", they do not support deletion. Their variances to enable deletion (like counting Bloom filters) usually require much more space.
